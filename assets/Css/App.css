@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.logo {
+  display:grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_img {
+  width: 200px;
+}
+
+.navBar{
+  display:grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+.navBar ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  list-style: none;
+  margin: 15px;
+
+}
+
+.navBar ul li a{
+  text-decoration: none;
+  padding: 8px;
+  color:#002F5D;
+  font-size: 20px;
+  border-right: 1px solid #8e0000;
+}
+
+.boton {
+  display: grid;
+  grid-template-columns:1fr;
+  justify-content: center;
+  justify-items: center;
+}
+.pruebagratis{
+  background-color: rgb(107, 7, 7); 
+    margin: 30px;
+    padding: 15px ;
+    font-size: 20px;
+    text-shadow: 1px 1px;
+    color: white;
+}
+
+.boton a{
+  background-color: rgb(107, 7, 7); 
+  margin: 30px;
+  padding: 15px ;
+  font-size: 20px;
+  text-shadow: 1px 1px;
+  color: white;
+  border: black;
+}
+
+/*++++++++++++++++++++++++++++++++*/
+/* Main index */
+
+.barra{
+  display: grid;
+  grid-template-columns:1fr;
+
+}
+
+.barra h1{
+  color: #fff;
+  font-size: 20px;
+  text-align: right;
+  padding: 10px;
+  background-color:#8E0000;
+}
+
+.infopaginaprincipal{
+  display: grid;
+  grid-template-columns:1fr;
+  justify-content: center;
+  justify-items: center;
+  padding: 15px;
+}
+
+.infopaginaprincipal h2 {
+display: grid;
+grid-template-columns:1fr;
+text-align: center;
+}
+
+.infop{
+  display: grid;
+  grid-template-columns:1fr;
+  justify-content: center;
+  justify-items: center;
+  padding: 15px;
+}
+.infop h3{
+  display: grid;
+  grid-template-columns:1fr;
+  text-align: center;
+}
+
+.portada{
+  display: grid;
+  grid-template-columns:1fr;
+}
+
+.imagen{
+  display: grid;
+  grid-template-columns:1fr;
+  padding: 15px;
+}
+.imagen img{
+  width: 100%;
+}
+
+.infoladoderecho{
+  display: grid;
+  grid-template-columns:1fr;
+  padding: 15px;
+  text-align: center;
+}
+
+.infoladoderecho h2{
+  padding: 15px;
+}
+
+.fondo{
+  display: grid;
+  grid-template-columns:1fr;
+  background-color: #8E0000;
+  padding: 15px;
+  text-align: center;
+}
+
+.fondo h2{
+  color: #fff;
+  padding: 15px;
+}
+
+.fondo p{
+  color: #fff;
+  padding: 15px;
+}
+
+.formularioprincipal{
+  display: grid;
+  grid-template-columns:1fr;
+  background-color: #002F5D;
+  padding: 25px;
+  margin: 20px;
+}
+.formularioprincipal h2{
+  text-align: center;
+  padding: 25px;
+  color: #fff;
+}
+
+.infopaginaprincipalser {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #8e0000;
+  padding: 10px;
+}
+
+/* -------------------------------------------------------*/
+/* soluciones*/
+
+.imagensoluciones{
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+
+.imagensoluciones img{
+  width: 100%;
+}
+
+.titulo h1{
+color: white;
+text-align: center;
+padding: 15px;
+background-color: #002F5D;
+}
+
+.infosoluciones h2{
+  color: white;
+  font-size: 19px;
+  padding: 15px;
+  text-align: center;
+
+  
+}
+form{
+  display: grid;
+  grid-template-columns:1fr;
+}
+
+label{
+  color: #fff;
+}
+
+/* -------------------------------------------------------*/
+/* productos*/
+
+.infoproductos{
+  display: grid;
+  grid-template-columns: 3,1fr;
+  background-color: #8E0000;
+  color: white;
+  font-size: 19px;
+  padding: 15px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.tituloproductos h1{
+  background-color: #002F5D;
+  color: white;
+  text-align: center;
+}
+
+.tituloproductos h2{
+  background-color:#8e0000;
+  color:white;
+  font-size: 25px;
+  text-align: center;
+  
+}
+.imagenproducto img{
+  width: 100%;
+  
+}
+
+/* -------------------------------------------------------*/
+/* blog*/
+
+.columnasblog{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin: 10px;
+  
+}
+
+.informacionblog{
+  background-color: #8e0000;
+  color: white;
+  font-size: 19px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.tituloblog h1{
+  background-color: #002F5D;
+  color: white;
+  text-align: center;
+}
+
+.imagenfondoblog img{
+  width: 100%;
+}
+
+/* -------------------------------------------------------*/
+/* pruebagratis*/
+
+.formulario{
+  display: grid;
+  grid-template-columns:1fr;
+  background-color: white;
+  padding: 50px;
+  margin: 20px;
+  width: 50%;
+  
+}
+
+.pruebafondo{
+  background-image: url(../img/cuantocuestacierre.jpg);
+  background-repeat: no-repeat;
+  background-size:cover
+}
+
+.textoprueba h1{
+  background-color: rgb(107, 7, 7);
+  color: white;
+  margin: 0%;
+
+}
+
+
+
+
+/* -------------------------------------------------------*/
+/* Footer*/
+
+.footer{
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  background-color: white;
+  color: black;
+}
+.iconredes{
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+
+  
+}
+.iconredes img{
+  display:flex;
+  padding: 10px;
+  width: 20px;
+  
+}
+
+.fuente{
+  display: grid;
+  grid-template-columns:1fr;
+  text-align: center;
+}
+.fuente h3{
+  padding: 15px;
+}
+
+
+/*====================*/
+/* mediaquery */
+/*====================*/
+@media (min-width: 768px) {
+  
+
+.header{
+  grid-template-columns:repeat(3,1fr);
+}
+
+.navBar{
+  align-items: center;
+}
+
+.boton a{
+  
+  padding: 35px;
+  margin: 15px;
+  width: 150px;
+  height: auto;
+}
+
+.infoladoderecho{
+  grid-template-columns:repeat(2,1fr);
+  text-align: justify;
+  padding: 30px;
+}
+
+.infoladoderecho h2{
+  padding: 30px;
+  text-align: center;
+}
+
+.infoladoderecho p{
+margin-bottom: 20px;
+padding: 30px;
+}
+
+
+}
+
+
